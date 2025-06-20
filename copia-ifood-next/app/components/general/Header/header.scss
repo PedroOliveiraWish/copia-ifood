@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 3rem;
+    z-index: 9999;
+
+    .body-header {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            margin-right: 2rem;
+        }
+
+        .navigation-link {
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    margin-right: 20px;
+                    font-size: 1.2rem;
+                    color: #7c7777;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .buttons-enter {
+        display: flex;
+
+        .btn {
+            margin-left: 1rem;
+            padding: .8rem 1.8rem;
+            border: none;
+            border-radius: 0.2rem;
+            font-size: 1rem;
+            cursor: pointer;
+
+            &.signup {
+                background: none;
+                color: red;
+                font-weight: 600;
+            }
+
+            &.login {
+                background-color: red;
+                color: white;
+                text-transform: capitalize;
+            font-weight: 600;
+
+            }
+        }
+    }
+}

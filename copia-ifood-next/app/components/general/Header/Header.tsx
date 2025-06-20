@@ -33,10 +33,10 @@ export default function Header() {
       </div>
 
       <div className="buttons-enter">
-        <button className="btn signup" onClick={() => router.push("/login")}>
+        <button className="btn signup">
           criar conta
         </button>
-        <button className="btn login" onClick={() => router.push("/login")}>
+        <button className="btn login">
           entrar
         </button>
       </div>

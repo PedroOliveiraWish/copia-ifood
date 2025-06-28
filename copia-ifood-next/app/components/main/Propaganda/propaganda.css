@@ -1,1 +1,1 @@
-.propaganda{display:flex;padding:2rem;gap:1rem;margin-bottom:3rem}.propaganda .image-propaganda .image-prop{width:29vw;height:11rem}
+.propaganda{display:flex;padding:2rem;gap:1rem;margin-bottom:3rem}@media(max-width: 768px){.propaganda{max-width:100vw;overflow-x:auto;padding:0}}.propaganda .image-propaganda .image-prop{width:29vw;height:11rem}@media(max-width: 768px){.propaganda .image-propaganda .image-prop{min-width:50vw;height:9rem}}

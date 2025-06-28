@@ -5,26 +5,44 @@
     padding-bottom: 8rem;
     padding-top: 2rem;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
     .card-convite {
         display: flex;
         max-width: 35rem;
+
+        @media (max-width: 768px) {
+            max-width: 90vw;
+        }
 
         .image-content {
             display: flex;
             align-items: end;
             justify-content: end;
-            
+
             .image-content-card {
                 transform: translateY(7rem);
+
+                @media (max-width: 768px) {
+                    transform: translateY(2rem);
+                    width: 10rem;
+                }
             }
         }
-    
+
         .text-content {
             padding: 0 2rem;
             margin-left: -1.5rem;
 
             .title {
                 font-size: 3rem;
+
+                @media (max-width: 768px) {
+                    font-size: 2rem;
+                }
             }
 
             .subtitle {
@@ -36,9 +54,9 @@
             button {
                 background-color: red;
                 border: none;
-                border-radius: .5rem;
+                border-radius: 0.5rem;
                 color: white;
-                padding: .8rem 1.6rem;
+                padding: 0.8rem 1.6rem;
             }
         }
     }

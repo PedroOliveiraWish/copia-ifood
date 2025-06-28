@@ -13,12 +13,25 @@
         grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
         gap: 1rem;
 
+        @media (max-width: 768px) {
+            display: flex;
+            justify-content: space-around;
+            max-width: 100vw;
+            overflow-x: auto;
+            padding: 1rem;
+            gap: 2rem;
+        }
+
         .card-mercado {
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
             border-radius: 0.5rem;
             display: flex;
             align-items: center;
             padding: 2rem 1.5rem;
+
+            @media (max-width: 768px) {
+                min-width: 200px;
+            }
 
             .imagem {
                 margin-right: 0.8rem;

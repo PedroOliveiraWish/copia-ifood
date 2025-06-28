@@ -6,6 +6,10 @@
     margin: 0 auto;
     padding: 3rem 0;
 
+    @media (max-width: 768px) {
+        display: none;
+    }
+
     .left {
         width: 50%;
         background-color: #f7f7f7;

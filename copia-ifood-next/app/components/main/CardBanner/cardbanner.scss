@@ -3,6 +3,11 @@
     background-color: white;
     padding: 0 15rem;
 
+    @media (max-width: 768px) {
+        width: 100vw;
+        padding: 1rem;
+    }
+
     .up {
         display: flex;
         justify-content: space-around;
@@ -10,6 +15,10 @@
         gap: 2rem;
         width: 100%;
         transform: translateY(-5.5rem);
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
 
         .card-banner-grande {
             display: flex;
@@ -19,6 +28,12 @@
             width: fit-content;
             height: 14rem;
             border-radius: 1rem;
+
+            @media (max-width: 768px) {
+                height: 100%;
+                width: 100%;
+                padding-bottom: 2rem;
+            }
 
             &:nth-child(1) {
                 background-color: red;
@@ -50,6 +65,12 @@
                     border: none;
                     border-radius: 0.5rem;
                     color: white;
+
+                    @media (max-width: 768px) {
+                        width: 100%;
+                        margin-top: 1rem;
+                        margin-left: -0.5rem;
+                    }
                 }
             }
 
@@ -70,6 +91,10 @@
         gap: 5rem;
         transform: translateY(-7rem);
 
+        @media (max-width: 768px) {
+            gap: 1rem;
+        }
+
         .card-banner-pequeno {
             display: flex;
             flex-direction: column;
@@ -84,6 +109,10 @@
                 justify-content: center;
                 align-items: center;
 
+                @media (max-width: 768px) {
+                    width: 3rem;
+                }
+
                 .image-next {
                     transform: translateY(3rem);
                 }
@@ -92,6 +121,10 @@
                     height: 3rem;
                     width: 100%;
                     border-radius: 0.5rem;
+
+                    @media (max-width: 768px) {
+                        width: 120px;
+                    }
                 }
             }
 

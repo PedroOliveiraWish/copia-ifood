@@ -1,5 +1,5 @@
 import Image from "next/image";
-import './bannerLove.css'
+import "./bannerLove.css";
 
 export default function BannerLovePage() {
   return (
@@ -9,7 +9,10 @@ export default function BannerLovePage() {
         <div className="subtitle">
           Descubra como é ser um FoodLover e faça parte da nossa revolução!
         </div>
-        <button>Saiba mais</button>
+
+        <div className="buttton">
+          <button>Saiba mais</button>
+        </div>
       </div>
       <div className="banner-image">
         <Image
